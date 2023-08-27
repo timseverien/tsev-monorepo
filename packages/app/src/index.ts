@@ -1,2 +1,3 @@
-import { SUPPORTED_LANGUAGES } from '@mono/i18n';
-console.log(SUPPORTED_LANGUAGES);
+import nl from '@mono/i18n/nl-NL';
+
+console.log(nl('navigationAbout'));
