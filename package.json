@@ -3,5 +3,11 @@
   "workspaces": [
     "packages/app",
     "packages/i18n"
-  ]
+  ],
+  "scripts": {
+    "build": "npm run build --workspaces --if-present"
+  },
+  "dependencies": {
+    "typescript": "^5.2.2"
+  }
 }
