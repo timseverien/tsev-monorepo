@@ -5,7 +5,8 @@
     "packages/i18n"
   ],
   "scripts": {
-    "build": "npm run build --workspaces --if-present"
+    "dev": "npm run dev --workspace=@mono/app",
+    "build": "npm run build --workspace=@mono/app"
   },
   "dependencies": {
     "typescript": "^5.2.2"
