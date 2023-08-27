@@ -4,6 +4,10 @@
   "private": true,
   "main": "./dist/index.js",
   "scripts": {
-    "build": "tsc"
+    "dev": "vite",
+    "build": "tsc && vite build"
+  },
+  "dependencies": {
+    "vite": "^4.4.9"
   }
 }
