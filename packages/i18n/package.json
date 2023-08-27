@@ -1,0 +1,6 @@
+{
+  "name": "@mono/i18n",
+  "type": "module",
+  "private": true,
+  "main": "./index.js"
+}

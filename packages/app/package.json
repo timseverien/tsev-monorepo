@@ -1,0 +1,6 @@
+{
+  "name": "@mono/app",
+  "type": "module",
+  "private": true,
+  "main": "./index.js"
+}
